@@ -1,0 +1,79 @@
+.monthCont {
+  display: flex;
+  height: 50px;
+  margin: 20px 20px 0 20px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 0 4px rgb(161, 161, 161);
+}
+.nav_cal_btn {
+  width: 100px;
+}
+
+.dropDownNav {
+  width: 200px;
+  height: 40px;
+  border-style: none;
+  outline-style: none;
+  font-weight: bolder;
+  font-size: 30px;
+  color: gray;
+}
+
+.dropDownNav:hover {
+  color: black;
+}
+
+.highlightedDay {
+  outline: 3px solid rgb(100, 178, 252);
+  color: rgb(100, 178, 252);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.calendar_container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  margin: 0px 20px 0 20px;
+  box-shadow: 0 3px 10px rgb(71, 71, 71);
+}
+
+.calendar_background {
+  height: 34px;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(7, 14, 92);
+}
+
+.daysOfWeek {
+  padding-top: 4px;
+  width: 300px;
+  height: 30px;
+  color: white;
+}
+
+.startOfTables {
+  display: flex;
+}
+
+.empty_day {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(230, 227, 227);
+}
+
+.calendar_day {
+  position: relative;
+}
+
+.calendar_num {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.calendar_rows {
+  background-color: white;
+  height: 152px;
+}
